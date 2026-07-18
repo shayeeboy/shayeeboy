@@ -48,3 +48,5 @@ A self-scoring assessment tool that helps a team gauge how "AI-native" it is, ev
 ---
 
 <sub>All three projects are public, deployed, and were built with <a href="https://claude.com/claude-code">Claude Code</a>. Explore the repositories on <a href="https://github.com/shayeeboy">my profile</a>.</sub>
+
+<!-- portfolio -->
