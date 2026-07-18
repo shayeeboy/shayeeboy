@@ -2,7 +2,7 @@
 
 Production-grade AI systems built end-to-end — data pipelines, RAG, autonomous agents, and live web apps — shipped free-tier and verified in production. Each project below is public, deployed, and links to a working demo.
 
-📍 Toronto-area builder · 🛠️ Node.js · PostgreSQL / Neon · pgvector · MCP · LLM orchestration · 🤖 built with Claude Code
+📍 Calgary-area builder · 🛠️ Node.js · PostgreSQL / Neon · pgvector · MCP · LLM orchestration · 🤖 built with Claude Code
 
 ---
 
