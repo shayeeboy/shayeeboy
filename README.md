@@ -13,6 +13,7 @@ Production-grade AI systems built end-to-end — data pipelines, RAG, autonomous
 | **[Enterprise RAG Assistant](https://github.com/shayeeboy/Enterprise-RAG-Assistant)** | A retrieval-augmented Q&A assistant over a piano-pedagogy knowledge base, from ingestion to a live cited-answer chat app. | Prove out a **complete, honest RAG stack** — hybrid retrieval, reranking, guardrails, LLM-as-judge evaluation, and built-in observability — running entirely on free/local infrastructure. |
 | **[Financial Intelligence Strategy Agent](https://github.com/shayeeboy/Financial-Intelligence-Strategy-Agent)** | An autonomous BI agent that turns live Canadian demographic and economic data into retail-banking strategy briefs. | Show how an **agent grounded in authoritative public data** (Statistics Canada, Bank of Canada, CMHC) can produce decision-ready analysis with explicit provenance and guardrails. |
 | **[AI-Native Team Diagnostic](https://github.com/shayeeboy/ai-native-diagnostic)** | A self-scoring assessment that measures how "AI-native" a team is, with a shared team view. | Deliver a **lightweight, sharable diagnostic** as a full-stack web app — from a static single-file tool to a persisted, multi-user team dashboard. |
+| **[AI Product & Leadership Studio](https://github.com/shayeeboy/AI-Product-Leadership-Studio)** | An executive operating platform for governing, prioritizing, funding, and evaluating an enterprise AI portfolio — unifying the outputs of the other three projects. | Demonstrate the **judgment layer of an AI product leader**: run many AI products as one governed portfolio, with decision support on every screen. |
 
 ---
 
@@ -45,8 +46,17 @@ A self-scoring assessment tool that helps a team gauge how "AI-native" it is, ev
 - **Stack:** static HTML/JS frontends on GitHub Pages · Node.js/Express API on Render · Neon Postgres.
 - **Full-stack:** REST API (`/api/sessions`), CORS-locked origins, health checks, and a database migration flow — verified working end-to-end.
 
+## 🎛️ AI Product & Leadership Studio
+
+The executive layer over the other three projects — not another AI app, but the operating surface a Director / VP of AI Product uses to govern, prioritize, fund, and evaluate an entire enterprise AI portfolio at once. It consumes the outputs of the three engines above through typed adapters and adds the judgment layer they lack.
+
+- **Live app:** [shayeeboy.github.io/AI-Product-Leadership-Studio](https://shayeeboy.github.io/AI-Product-Leadership-Studio/)
+- **Scope:** 13 executive / governance / decision modules — opportunity scoring, build-vs-buy, governance workflow, scorecards, responsible-AI ops, cost/ROI, prioritization, and maturity.
+- **Stack:** Vite 5 · React 18 · TypeScript · Tailwind · Recharts · Zustand · TanStack Query — a client-first static app deployed to GitHub Pages for **$0/mo**.
+- **Architecture:** a three-layer model (Executive / Governance / Decision) over a stable adapter contract (`getSnapshot / getHistory / listProducts`), so any real AI product plugs in by populating one snapshot schema — a live API is a drop-in later.
+
 ---
 
-<sub>All three projects are public, deployed, and were built with <a href="https://claude.com/claude-code">Claude Code</a>. Explore the repositories on <a href="https://github.com/shayeeboy">my profile</a>.</sub>
+<sub>All four projects are public, deployed, and were built with <a href="https://claude.com/claude-code">Claude Code</a>. Explore the repositories on <a href="https://github.com/shayeeboy">my profile</a>.</sub>
 
 <!-- portfolio -->
